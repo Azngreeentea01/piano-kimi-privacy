@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piano Kimi — Privacy Policy</title>
+  <style>
+    :root { --bg: #f8f9fc; --card: #ffffff; --text: #1c1a2b; --muted: #5c5973; --accent: #5468ee; --border: #e4e6f2; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.65; padding: 32px 16px; }
+    main { max-width: 760px; margin: 0 auto; background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 36px 32px; box-shadow: 0 8px 30px rgba(28,26,43,0.04); }
+    h1 { margin-top: 0; font-size: 2rem; color: var(--text); }
+    h2 { margin-top: 28px; font-size: 1.2rem; color: var(--accent); }
+    p, li { color: var(--text); }
+    .meta { color: var(--muted); font-size: 0.92rem; margin-bottom: 24px; }
+    .box { background: #f2f4ff; border-left: 4px solid var(--accent); padding: 14px 18px; border-radius: 10px; margin: 18px 0; }
+    footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Piano Kimi Privacy Policy</h1>
+    <p class="meta">Effective Date: November 24, 2026 · Package ID: <code>com.pianokimi.app</code></p>
+
+    <div class="box">
+      <strong>Short version:</strong> Piano Kimi works completely offline with <strong>no ads</strong> and <strong>no account required</strong>. Microphone audio is analyzed on your device in real time and is never recorded or uploaded. Online storage is used only if you voluntarily sign in with Google to use Teacher &amp; Student Classes.
+    </div>
+
+    <h2>1. Offline Use (No Sign-In)</h2>
+    <p>When you use Piano Kimi without signing in, all learner profiles, lesson progress, stars, practice history, and imported songs stay strictly on your device. Piano Kimi does not collect analytics, does not show ads, and does not sell or share personal data with third parties.</p>
+
+    <h2>2. Microphone &amp; MIDI Permissions</h2>
+    <ul>
+      <li><strong>Microphone (<code>RECORD_AUDIO</code>):</strong> Requested only if you choose "Acoustic piano / Microphone" input. Audio is processed locally in memory in real time to detect musical pitches. <strong>Audio is never recorded, saved, or transmitted off your device.</strong></li>
+      <li><strong>USB &amp; Bluetooth MIDI:</strong> Used solely to receive note events from your connected digital piano or keyboard. Piano Kimi never requests location permissions for Bluetooth MIDI.</li>
+    </ul>
+
+    <h2>3. Optional Google Sign-In &amp; Teacher/Student Classes</h2>
+    <p>If you choose to sign in with Google in <em>Settings &rsaquo; Account &amp; classes</em>, Piano Kimi uses Google Firebase Authentication and Cloud Firestore to sync:</p>
+    <ul>
+      <li>Your Google account display name and email address</li>
+      <li>Learner profile first names (entered by the parent/learner) and avatar colors</li>
+      <li>Teacher profiles, join codes, class groups, join requests, and assignments</li>
+      <li>Assignment results (stars, accuracy, plays, practice minutes) and aggregated practice summaries (daily minutes, songs played, course progress, and weak spots) shared with a teacher only after the teacher accepts the learner’s join request</li>
+    </ul>
+    <p>Audio recordings and note-by-note raw histories are never uploaded.</p>
+
+    <h2>4. Children’s Privacy &amp; Parental Controls</h2>
+    <p>Piano Kimi supports child learner profiles alongside adult profiles. Child profiles can be protected with a 4-digit Parent PIN for family, backup, and data settings. Piano Kimi contains no third-party advertising, no behavioral tracking, and no social feeds.</p>
+
+    <h2>5. Deleting Your Data</h2>
+    <ul>
+      <li><strong>Local device data:</strong> Reset any learner’s progress in <em>Settings &rsaquo; Privacy &amp; Data</em>, or uninstall the app.</li>
+      <li><strong>Cloud account data:</strong> Open <em>Settings &rsaquo; Account &amp; classes &rsaquo; Delete account</em> inside the app to permanently delete your Firebase account, teacher profile, classes, assignments, results, and practice summaries immediately.</li>
+    </ul>
+
+    <h2>6. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy or your data, please contact us at: <a href="mailto:khang1111@gmail.com"><strong>khang1111@gmail.com</strong></a>.</p>
+
+    <footer>&copy; 2026 Piano Kimi. All rights reserved.</footer>
+  </main>
+</body>
+</html>
